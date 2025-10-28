@@ -11,22 +11,20 @@ using namespace std;
 //	else
 //		return b;
 //}
-//int wyswietlwieksza(int a, int b)
+//void wyswietlwieksza(int a, int b)
 //{
 //	int wieksza = ktorawieksza(a, b);
 //	cout << "Wieksza liczba to: " << wieksza << endl;
-//	return wieksza;
 //}
 
 //zad 2
-//int podajdzielniki(int n) {
+//void podajdzielniki(int n) {
 //	cout << "Dzielniki liczby " << n << " to: ";
 //	for (int i = 1; i <= n; i++) {
 //		if (n % i == 0) {
 //			cout<< i<<" ";
 //		}
 //	}
-//	return n;
 //}
 
 //zad 3
@@ -48,7 +46,7 @@ using namespace std;
 //}
 
 //zad 4
-// 
+//
 //int potega(int a, int b) {
 //	int temp = a;
 //	if (b == 0) {
@@ -96,7 +94,7 @@ using namespace std;
 //}
 
 //zad 7
-//int Losowanie(int LuckyNumber){
+//void Losowanie(int LuckyNumber){
 //	srand(time(NULL));
 //	float iletrafien = 0;
 //	float ileprocent;
@@ -108,25 +106,22 @@ using namespace std;
 //	}
 //	ileprocent = (iletrafien / 10.0) * 100;
 //	cout << "Trafiles " << iletrafien << " razy. Jest to "<<ileprocent <<" procent" << endl;
-//	return iletrafien;
 //}
 
 //zad 8
-//int JakParToDziel(int n) {
+//void JakParToDziel(int n) {
 //	for (int i = 0; i <= n; i++) {
 //		if (i % 2 == 0) {
 //			cout << "Wynik to: " << i / 2 << endl;
 //		}
 //	}
-//	return n;
 //}
-//int jakNieParToDziel(int n) {
+//void jakNieParToDziel(int n) {
 //	for (int i = 0; i <= n; i++) {
 //		if (i % 2 != 0) {
 //			cout << "Wynik to: " << (i - 1) / 2 << endl;
 //		}
 //	}
-//	return n;
 //}
 int main()
 {
@@ -174,7 +169,7 @@ int main()
 				cout << "Nieprawidlowy znak dzialania" << endl;
 				break;
 			}
-		}
+}
 		else {
 			kontynuowac = false;
 		}*/
